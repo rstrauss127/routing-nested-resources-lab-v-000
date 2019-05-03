@@ -8,7 +8,7 @@ class SongsController < ApplicationController
         redirect_to artists_path
       end
     else
-
+      render 200
     end
   end
 
